@@ -2,7 +2,7 @@
 
 This repository contains two different implementations of a movie recommendation system using neural networks:
 
-1. **Dot Product-based Model (RecommenderNet)**: Uses user and movie embeddings, along with dot products and biases, to predict ratings.
+1. **Dot Product-based Model (RankingRecSysNet)**: Uses user and movie embeddings, along with dot products and biases, to predict ratings.
 2. **Neural Collaborative Filtering (NeuralCF)**: Uses concatenated embeddings and dense layers to model more complex interactions between users and movies.
 
 ## Features
@@ -30,7 +30,7 @@ This repository contains two different implementations of a movie recommendation
 
 ## Models Overview
 
-### 1. Dot Product-based Model (`recommender_net.ipynb`)
+### 1. Dot Product-based Model (`Ranking_recommendations.ipynb`)
 This implementation is based on a simple dot product between user and movie embeddings, with additional bias terms for both users and movies. It uses the **MovieLens dataset** to train the model.
 
 - **Features**:
@@ -57,7 +57,7 @@ This implementation uses a **Neural Collaborative Filtering (NCF)** approach, wh
 
 ## Data
 
-### 1. MovieLens Dataset (used in `recommender_net.ipynb`)
+### 1. MovieLens Dataset (used in `Ranking_recommendations.ipynb`)
 The dataset can be downloaded automatically by the script from the following link:
 - [MovieLens Small Dataset (ml-latest-small.zip)](http://files.grouplens.org/datasets/movielens/ml-latest-small.zip)
 
