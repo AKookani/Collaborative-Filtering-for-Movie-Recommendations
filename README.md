@@ -43,7 +43,7 @@ This implementation is based on a simple dot product between user and movie embe
     - Personalized movie recommendations for a user.
     - Plot of training and validation loss across epochs.
 
-### 2. Neural Collaborative Filtering (NeuralCF) (`neural_cf.ipynb`)
+### 2. Neural Collaborative Filtering (NeuralCF) (`Neural_Recommender_System_(NCF).ipynb`)
 This implementation uses a **Neural Collaborative Filtering (NCF)** approach, where user and movie embeddings are concatenated and passed through several fully connected (dense) layers to learn more complex interactions between users and movies. It uses the **Netflix Movie Rating dataset** for training.
 
 - **Features**:
@@ -61,7 +61,7 @@ This implementation uses a **Neural Collaborative Filtering (NCF)** approach, wh
 The dataset can be downloaded automatically by the script from the following link:
 - [MovieLens Small Dataset (ml-latest-small.zip)](http://files.grouplens.org/datasets/movielens/ml-latest-small.zip)
 
-### 2. Netflix Dataset (used in `neural_cf.ipynb`)
+### 2. Netflix Dataset (used in `Neural_Recommender_System_(NCF).ipynb`)
 This dataset is used for the **NeuralCF** implementation and can be downloaded from:
 - [Netflix Movie Rating Dataset (Kaggle)](https://www.kaggle.com/datasets/rishitjavia/netflix-movie-rating-dataset?select=Netflix_Dataset_Rating.csv)
 
